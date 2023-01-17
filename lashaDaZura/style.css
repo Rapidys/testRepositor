@@ -1,0 +1,117 @@
+/*.loaderWrapper {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    z-index: 1;*/
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.loader {*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    border-radius: 50%;*/
+/*    border: 2px dashed black;*/
+/*    animation-name: loaderAnimation;*/
+/*    animation-duration: 3s;*/
+/*    animation-iteration-count: infinite;*/
+/*    animation-timing-function: linear;*/
+
+/*    !*animation:loaderAnimation 3s infinite linear ;*!*/
+
+
+/*}*/
+
+/*@keyframes loaderAnimation {*/
+/*    from {*/
+/*        transform: rotate(0) scale(100%);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotate(360deg) scale(150%);*/
+/*    }*/
+/*}*/
+
+/*.block {*/
+/*    width: 400px;*/
+/*    height: 400px;*/
+/*    background-color: red;*/
+/*}*/
+
+/*.block2 {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*    background-color: #000000;*/
+/*    animation: blockAnimation 2s infinite linear;*/
+/*}*/
+
+/*@keyframes blockAnimation {*/
+/*    0% {*/
+/*        transform: translateX(0px);*/
+/*    }*/
+/*    25% {*/
+/*        transform: translateX(360px);*/
+/*    }*/
+/*    50% {*/
+/*        transform: translate(360px,360px);*/
+/*    }*/
+/*    75% {*/
+/*        transform: translate(0px,360px);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(0px,0px);*/
+/*    }*/
+/*}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: #c8c8c8;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 1000px;
+}
+
+.nav_items{
+    display: flex;
+}
+
+.nav_item{
+    list-style-type: none;
+    padding: 10px;
+    color: #000;
+}
+.nav_item:hover{
+    /*background-color: #0057ff;*/
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/*img{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    transition: 2s;*/
+/*}*/
+
+/*img:hover{*/
+/*    width: 400px;*/
+/*    height: 400px;*/
+/*}*/
